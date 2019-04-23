@@ -1,0 +1,17 @@
+{
+  "name": "tfjs-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/video-intelligence": "^1.6.0",
+    "@tensorflow-models/mobilenet": "^1.0.1",
+    "@tensorflow/tfjs-node": "^1.1.0",
+    "firebase": "^5.10.0",
+    "jpeg-js": "^0.3.4",
+    "node-fetch": "^2.3.0"
+  },
+  "scripts": {
+    "main": "node video-intelligence-api/index.js"
+  }
+}
